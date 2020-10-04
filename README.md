@@ -7,7 +7,7 @@ In this project, Extend Kalman Filter was implemented to estimate the state of a
 
 [//]: # (Image References)
 
-[image1]: ./examples/drifting.jpg "function blocks"
+[image1]: ./EKF_architecture.png "function blocks"
 
 
 ## Intro.
