@@ -3,7 +3,7 @@
 ---
 
 ## Summary
-In this project you will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower than the tolerance outlined in the project rubric. 
+In this project, Extend Kalman Filter was implemented to estimate the state of a moving object of interest with noisy lidar and radar measurements.
 
 [//]: # (Image References)
 
@@ -36,15 +36,8 @@ To run the code,
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 - install Udacity simulator from [here](https://github.com/udacity/self-driving-car-sim/releases).
-  * INPUT: values provided by the simulator to the c++ program
-   ["sensor_measurement"] => the measurement that the simulator observed (either lidar or radar)
-  * OUTPUT: values provided by the c++ program to the simulator
-   ["estimate_x"] <= kalman filter estimated position x
-   ["estimate_y"] <= kalman filter estimated position y
-   ["rmse_x"]
-   ["rmse_y"]
-   ["rmse_vx"]
-   ["rmse_vy"]
+  * INPUT: values provided by the simulator ["sensor_measurement"] to the c++ program
+  * OUTPUT: values provided by the c++ program ["estimate_x"], ["estimate_y"], ["rmse_x"], ["rmse_y"], ["rmse_vx"], ["rmse_vy"] to the simulator
 
 the main program can be built and run by doing the following from the project top directory.
 ```sh
@@ -57,7 +50,7 @@ the main program can be built and run by doing the following from the project to
 ---
 
 ## Implementation
-* Overview
+
 The Kalman filter(KF) is one of the most widely used methods for tracking and estimation due to its simplicity,
 optimality, tractability and robustness. However, the application of the KF to nonlinear systems can be difficult.
 Extended Kalman Filter (EKF) linearises all nonlinear models so that the traditional linear Kalman filter can be applied. 
