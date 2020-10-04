@@ -25,16 +25,16 @@ This repository includes two files that can be used to set up and install [uWebS
 To run the code,
 - run shell script to install [uWebSocketIO](https://github.com/uWebSockets/uWebSockets) for Linux, Mac, or Ubuntu systems.
 - check dependencies
-* cmake >= 3.5
-  * All OSes: [click here for installation instructions](https://cmake.org/install/)
-* make >= 4.1 (Linux, Mac), 3.81 (Windows)
-  * Linux: make is installed by default on most Linux distros
-  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
-  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
-* gcc/g++ >= 5.4
-  * Linux: gcc / g++ is installed by default on most Linux distros
-  * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
-  * Windows: recommend using [MinGW](http://www.mingw.org/)
+    * cmake >= 3.5
+      * All OSes: [click here for installation instructions](https://cmake.org/install/)
+    * make >= 4.1 (Linux, Mac), 3.81 (Windows)
+      * Linux: make is installed by default on most Linux distros
+      * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
+      * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
+    * gcc/g++ >= 5.4
+      * Linux: gcc / g++ is installed by default on most Linux distros
+      * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
+      * Windows: recommend using [MinGW](http://www.mingw.org/)
 - install Udacity simulator from [here](https://github.com/udacity/self-driving-car-sim/releases).
   * INPUT: values provided by the simulator ["sensor_measurement"] to the c++ program
   * OUTPUT: values provided by the c++ program ["estimate_x"], ["estimate_y"], ["rmse_x"], ["rmse_y"], ["rmse_vx"], ["rmse_vy"] to the simulator
